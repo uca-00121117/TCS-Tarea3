@@ -1,4 +1,5 @@
 //00121117 - DIEGO RUBI
+
 #include <vector>
 #include "math.h"
 #include "stdlib.h"
@@ -185,3 +186,5 @@ void inverseMatrix(Matrix M, Matrix &Minv)
     transpose(Cof, Adj);
     productRealMatrix(1 / det, Adj, Minv);
 }
+
+//00121117 - DIEGO RUBI

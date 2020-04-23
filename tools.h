@@ -1,4 +1,5 @@
 //00121117 - DIEGO RUBI
+
 #include <fstream>
 
 void obtenerDatos(istream &file,int nlines,int n,int mode,item* item_list
@@ -52,4 +53,7 @@ void leerMallayCondiciones(mesh &m){
 
     file.close();
 }
+
+//00121117 - DIEGO RUBI
+
 

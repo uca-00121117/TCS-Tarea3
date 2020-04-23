@@ -1,4 +1,5 @@
 //00121117 - DIEGO RUBI
+
 void showVector(Vector b)
 {
     cout << "[\t";
@@ -41,3 +42,5 @@ void showKs(vector<Matrix> Ks)
         cout << "*************************************\n";
     }
 }
+
+//00121117 - DIEGO RUBI

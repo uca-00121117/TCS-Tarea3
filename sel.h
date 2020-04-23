@@ -1,4 +1,5 @@
 //00121117 - DIEGO RUBI
+
 #include "classes.h"
 
 Matrix createLocalK(int element,mesh &m){
@@ -100,3 +101,5 @@ void calculate(Matrix &K, Vector &b, Vector &T){
     inverseMatrix(K,Kinv);
     productMatrixVector(Kinv,b,T);
 }
+
+//00121117 - DIEGO RUBI
